@@ -1,0 +1,39 @@
+/* GLOBAL VARIABLES */
+:root {
+
+    /* MAIN UI COLORS */
+    --body-background: #eee;
+    --body-text-color: #222;
+
+
+    /* LINK (COLORS) */
+    --link-color: #900;
+
+
+    /* LINK HOVER (COLORS) */
+    --link-hover-color: #f00;
+
+
+    /* TYPOGRAPHY */
+    --body-font-family: 'Gotham A', 'Gotham B', sans-serif;
+    --heading-font-family: 'Futura PT', sans-serif;
+
+
+    /* SIZING UNITS */
+    --unit-extrasmall: 0.5rem;
+    --unit-small: 1rem;
+    --unit-medium: 1.5rem;
+    --unit-large: 2rem;
+    --unit-xlarge: 3rem;
+
+    /* SITE STRUCTURE COLORS */
+    --site-header-background-color: #fff;
+    --site-header-text-color: #000;
+
+    --site-footer-background-color: #eee;
+    --site-footer-text-color: #000;
+
+    --sitenav-drawer-menu-background-color: #ccffff;
+    --sitenav-drawer-menu-text-color: #000;
+
+}

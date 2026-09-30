@@ -1,0 +1,47 @@
+/* GLOBAL TYPOGRAPHY */
+
+body {
+    font-family: var(--body-font-family);
+    font-size: 16px;
+    line-height: 1.5;
+    text-wrap: break-word;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--heading-font-family);
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    /* padding-block-start: .2em;
+    padding-block-end: .2em; */
+}
+
+
+h1 {
+    font-size: 4em;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+
+h4 {
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+
+/* FOR PARAGRAPHS */
+p {
+    max-width: 65ch;
+    text-wrap: pretty;
+}

@@ -1,0 +1,8 @@
+/* SET ALL IMAGES AND SVG ELEMENTS TO BE RESPONSIVE */
+img,
+video,
+svg {
+    max-width: 100%;
+    height: auto;
+
+}

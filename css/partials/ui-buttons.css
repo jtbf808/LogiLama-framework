@@ -1,0 +1,23 @@
+.button {
+
+    display: inline-block;
+    color: #fff;
+    background-color: var(--link-color, #000000);
+    padding-block: var(--unit-extrasmall, .5em);
+    padding-inline: var(--unit-small, 1em);
+    border-radius: 5px;
+    border: 1px solid var(--link-color, #000000);
+    text-decoration: none;
+
+
+
+    &:hover {
+
+        background-color: var(--link-hover-color, #000000);
+        color: #fff;
+        border-color: var(--link-hover-color, #000000);
+
+    }
+
+
+}

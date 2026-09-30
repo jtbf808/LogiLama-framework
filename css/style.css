@@ -1,0 +1,37 @@
+/* TABEL OF CONTENTS FOR CSS */
+
+
+/* GLOBAL STYLES (Variables, Resets, Colors, Typography, etc.) */
+/* -----These are the foundational styles for the project----- */
+@import url('partials/globals-variables.css');
+@import url('partials/globals-resets.css');
+@import url('partials/globals-colors.css');
+@import url('partials/globals-typography.css');
+@import url('partials/globals-media.css');
+@import url('partials/globals-structure.css');
+@import url('partials/globals-containers.css');
+@import url('partials/globals-grid.css');
+
+
+
+
+
+
+
+
+/* LAYOUT STYLES (Div, Grid, Flexbox, etc.) */
+/* -----These define the overall layout structure of the project----- */
+
+
+/* PAGE STRUCTURE STYLES (Header, Footer, Logo, etc.) */
+/* -----These define the structure and layout of key page elements----- */
+
+
+/* UI STYLES (Buttons, Menu, Cards, etc.) */
+/* -----These define the appearance and behavior of user interface components----- */
+
+@import url('partials/ui-buttons.css');
+@import url('partials/ui-cards.css');
+
+/* UNIQUE STYLES (Extras, Flavor, Animation, etc.) */
+/* -----These add unique touches and personality to the project----- */

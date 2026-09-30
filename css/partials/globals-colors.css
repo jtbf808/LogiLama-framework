@@ -1,0 +1,30 @@
+/* GLOBAL COLORS */
+
+body {
+    /* SET MAIN SITE BACKGROUND COLORS */
+    background-color: var(--body-background);
+
+    /* SET MAIN SITE TEXT COLORS */
+    color: var(--body-text-color);
+}
+
+/* SET TEXT LINK COLORS */
+a {
+    color: var(--link-color);
+
+    /* CUSTOM UNDERLINE */
+
+    text-decoration-line: underline;
+    text-decoration-color: var(--link-hover-color);
+    text-decoration-thickness: 1px;
+    text-decoration-style: solid;
+    text-underline-offset: 4px;
+
+
+
+    &:hover {
+        /* SET TEXT LINK HOVER COLORS */
+        color: var(--link-hover-color);
+    }
+
+}

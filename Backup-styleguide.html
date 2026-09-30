@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Base</title>
+
+    <!-- Add your CSS file link here -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="logo">
+            <h1><a href="index.html">Simple Base</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="styleguide.html">Style Guide</a></li>
+
+
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+
+        <section class="hero">
+            <h1>Hero Headline</h1>
+            <h2>Hero Subheadline</h2>
+            <p>Hero description text goes here.</p>
+            <a href="#" class="button">Button</a>
+        </section>
+
+
+        <aside class="sidebar">
+
+            <nav>
+                <ul>
+                    <li><a href="#responsivemedia">Responsive media</a></li>
+                </ul>
+            </nav>
+
+        </aside>
+
+        <section>
+
+            <h2>Section Heading</h2>
+            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit.lorem ipsum dolor sit amet, consectetur
+                adipiscing elit.lorem ipsum dolor sit amet, consectetur adipiscing elit.lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.lorem ipsum dolor sit amet, consectetur adipiscing elit.lorem ipsum
+                dolor
+                sit amet, consectetur adipiscing elit.</p>
+        </section>
+
+        <section id="responsivemedia">
+            <h2>Responsive Media</h2>
+
+            <h3>JPEG Images</h3>
+            <img src="/media/Placeholder-3200x1800.jpg" alt="JPEG Example" width="3200" height="1800">
+
+            <h3>SVG Images</h3>
+            <img src="/media/Placeholder-3200x1800.svg" alt="SVG Example" width="3200" height="1800">
+
+            <svg width="3200" height="1800" viewBox="0 0 3200 1800" xmlns="http://www.w3.org/2000/svg">
+                <rect width="3200" height="1800" fill="#8b8b8b" />
+                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="100"
+                    fill="#fff">&lt;svg&gt; Inline
+                    svg &lt;/svg&gt;</text>
+            </svg>
+
+            <h3>MP4 Video</h3>
+
+            <h4>Regular Video w/ Controls</h4>
+            <video controls width="1920" height="1080">
+                <source src="media/placeholder-1920x1080.mp4" type="video/mp4">
+            </video>
+
+            <h4>Looping Adutoplay video with No Controls</h4>
+            <video loop autoplay muted playsinline>
+                <source src="media/placeholder-1920x1080.mp4" type="video/mp4">
+            </video>
+            <pre><code>
+&lt;video loop autoplay muted playsinline&gt;
+            </code></pre>
+
+
+        </section>
+
+        <section>
+
+            <h2> Grid System</h2>
+
+            <div class="demo">
+
+                <div class="row">
+                    <div class="one-third">&frac13;</div>
+                    <div class="one-third">&frac13;</div>
+                    <div class="one-third">&frac13;</div>
+                </div>
+
+
+                <div class="row">
+                    <div class="one-fourth">&frac14;</div>
+                    <div class="one-fourth">&frac14;</div>
+                    <div class="one-fourth">&frac14;</div>
+                    <div class="one-fourth">&frac14;</div>
+                </div>
+
+
+                <div class="row">
+                    <div class="one-third">&frac13;</div>
+                    <div class="two-thirds">&frac23;</div>
+                </div>
+
+
+                <div class="row">
+                    <div class="one-half">&frac12;</div>
+                    <div class="one-half">&frac12;</div>
+                </div>
+
+
+                <div class="row">
+                    <div class="one-fourth">&frac14;</div>
+                    <div class="three-fourths">&frac34;</div>
+                </div>
+
+
+                <div class="row">
+                    <div class="one-whole">1</div>
+                </div>
+
+
+                <div class="row">
+                    <div class="one-half centered">&frac12; Centered</div>
+                </div>
+
+                <div class="row">
+                    <div class="two-thirds centered">&frac23; Centered</div>
+                </div>
+
+                <div class="row">
+                    <div class="one-third centered">&frac13; Centered</div>
+                </div>
+
+                <div class="row">
+                    <div class="one-fourth centered">&frac14; Centered</div>
+                </div>
+
+                <div class="row">
+                    <div class="three-fourths centered">&frac34; Centered</div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-1">1</div>
+                    <div class="col-11">11</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2">2</div>
+                    <div class="col-10">10</div>
+                </div>
+                <div class="row">
+                    <div class="col-3">3</div>
+                    <div class="col-9">9</div>
+                </div>
+                <div class="row">
+                    <div class="col-4">4</div>
+                    <div class="col-8">8</div>
+                </div>
+                <div class="row">
+                    <div class="col-5">5</div>
+                    <div class="col-7">7</div>
+                </div>
+                <div class="row">
+                    <div class="col-6">6</div>
+                    <div class="col-6">6</div>
+                </div>
+                <div class="row">
+                    <div class="col-7">7</div>
+                    <div class="col-5">5</div>
+                </div>
+                <div class="row">
+                    <div class="col-8">8</div>
+                    <div class="col-4">4</div>
+                </div>
+                <div class="row">
+                    <div class="col-9">9</div>
+                    <div class="col-3">3</div>
+                </div>
+                <div class="row">
+                    <div class="col-10">10</div>
+                    <div class="col-2">2</div>
+                </div>
+                <div class="row">
+                    <div class="col-11">11</div>
+                    <div class="col-1">1</div>
+                </div>
+
+
+                <h3>Pushes</h3>
+                <div class="row">
+                    <div class="col-2 push-1">push 1</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2 push-2">push 2</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2 push-3">push 3</div>
+                </div>
+
+            </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer class="site-footer">
+
+        <div class="logo">
+            <h2><a href="index.html">Simple Base</a></h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="styleguide.html">Style Guide</a></li>
+            </ul>
+        </nav>
+
+
+        <!-- MAIN JS FILE -->
+        <script src="js/script.js"></script>
+
+    </footer>
+
+
+
+</body>
+
+</html>
