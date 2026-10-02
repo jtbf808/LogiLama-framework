@@ -1,0 +1,84 @@
+[data-viewstate="active"] .fade-in-from-left {
+    animation-name: fade-in-from-left;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0, .5, .5, 1);
+    animation-fill-mode: forwards;
+    animation-delay: var(--animation-delay, 0);
+
+
+    /* SET STARTING ANIMATION STATE */
+    opacity: 0;
+    translate: -100px 0;
+}
+
+
+
+@keyframes fade-in-from-left {
+    0% {
+        opacity: 0;
+        translate: -100px 0;
+    }
+
+    100% {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+
+
+
+
+
+
+[data-viewstate="active"] .fade-in-from-top {
+    animation-name: fade-in-from-top;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0, .5, .5, 1);
+    animation-fill-mode: forwards;
+    animation-delay: var(--animation-delay, 0);
+
+
+    /* SET STARTING ANIMATION STATE */
+    opacity: 0;
+    translate: 0 -100px;
+}
+
+
+
+@keyframes fade-in-from-top {
+    0% {
+        opacity: 0;
+        translate: 0 -100px;
+    }
+
+    100% {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+
+.hero {
+    animation-name: hero-animation;
+    animation-duration: .6s;
+    animation-timing-function: ease-out;
+    transform-origin: center top;
+    animation-fill-mode: forwards;
+
+
+    /* SET STARTING ANIMATION SCALE */
+    scale: 1 0;
+}
+
+
+
+@keyframes hero-animation {
+    0% {
+        scale: 1 0;
+    }
+
+    100% {
+        scale: 1 1;
+    }
+}
