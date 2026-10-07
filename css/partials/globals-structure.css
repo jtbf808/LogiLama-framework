@@ -14,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: var(--unit-small);
 
 
     /* REMOVE UNDERLINES ON LINKS */
@@ -178,7 +179,8 @@
             /* SITE NAV FOR SMALLER SCREENS  */
 
             /* MOBILE SCREEN STYLING */
-            position: absolute;
+            z-index: 50;
+            position: fixed;
             top: -100%;
             left: 0;
             display: block;
@@ -343,7 +345,12 @@
     }
 }
 
-
+/* FIX THE WITH OF THE LOGO ON SMALL SCREENS WITH A MOVILE MENU */
+@media (width <=768px) {
+    .site-header:has(.mobile-menu) .site-logo {
+        max-width: calc(100% - 3em);
+    }
+}
 
 
 .site-footer {
