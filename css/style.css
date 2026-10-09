@@ -37,3 +37,63 @@
 /* -----These add unique touches and personality to the project----- */
 
 @import url('partials/ui-animation.css');
+
+
+
+
+
+/* SPLASHSCREEN */
+
+
+.splash-screen {
+    background-color: white;
+
+    /* PUT IT ON TOP AND BIG */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100svh;
+    z-index: 9999;
+
+
+    /* VERTICAL AND HORIZONTAL CENTERING */
+    display: grid;
+    place-items: center;
+
+
+    /* ADD KEYFRAME ANIMATION */
+
+
+    animation: splash-screen-exit 1s ease-in-out 3s forwards;
+
+
+
+}
+
+@keyframes splash-screen-exit {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+
+    }
+}
+
+
+
+.splash-screen .splash-logo {
+    animation: splash-logo-enter 1s ease-in-out forwards;
+}
+
+@keyframes splash-logo-enter {
+    0% {
+        scale: 0;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
