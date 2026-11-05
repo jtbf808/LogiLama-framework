@@ -1,21 +1,32 @@
 /* STRUCTURE */
 
+body {
+    display: grid;
+    min-height: 100svh;
+    grid-template-rows: auto 1fr auto;
+}
+
+
+
 
 /* SITE HEARDER */
 
 .site-header {
 
     /* background-color: yellow; */
-    padding: var(--unit-small);
+    padding: var(--unit-xlarge);
     background-color: var(--site-header-background-color, #fff);
+
 
     /* PLACE LOGO ON LEFT AND NAV ON RIGHT */
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: var(--unit-small);
 
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: var(--unit-small);
+    }
 
     /* REMOVE UNDERLINES ON LINKS */
 
@@ -45,6 +56,11 @@
     /* SITE NAV */
 
     .site-nav {
+
+
+        a {
+            color: var(--site-header-text-color, black);
+        }
 
         /* SEE BELOW FOR SITE NAV */
 
@@ -356,7 +372,10 @@
 .site-footer {
 
     background-color: var(--site-footer-background-color, white);
-    padding-block: var(--unit-large);
+    padding: var(--unit-small);
+    display: flex;
+    justify-content: space-between;
+    gap: var(--unit-small);
 
     a {
         color: var(--site-footer-text-color, black);
@@ -365,8 +384,12 @@
 
     .footer-nav {
 
+
         ul {
 
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
             list-style: none;
             padding: 0;
             margin: 0;

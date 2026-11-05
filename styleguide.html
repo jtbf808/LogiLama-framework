@@ -15,15 +15,6 @@
 <body>
     <site-header></site-header>
     <main>
-        <section class="hero">
-            <div class="container">
-                <h1>Style Guide</h1>
-                <h2>Random Thing</h2>
-                <p>Hero description text goes here.</p>
-            </div>
-        </section>
-
-
         <section>
             <div class="container">
                 <div class="row">
@@ -34,8 +25,9 @@
 
                                 <li><a href="#typography">Typography</a></li>
                                 <li><a href="#colors">Color</a></li>
+                                <li><a href="#buttons">Buttons</a></li>
                                 <li><a href="#media">Responsive Media</a></li>
-                                <li><a href="#grid">Grid</a></li>
+                                <li><a href="#skew">Skew</a></li>
 
 
                             </ul>
@@ -82,15 +74,66 @@
                                 </ul>
                             </div>
 
-                            <div class="card" style="--card-background-color: #9f2828; --card-text-color: #fff;">
+                            <div class="card" style="--card-background-color: #4941C0; --card-text-color: #fff;">
 
                                 <h3>Brand</h3>
                                 <ul>
-                                    <li>HEX: #9f2828</li>
+                                    <li>HEX: #4941C0</li>
                                 </ul>
                             </div>
 
                         </div>
+
+                        <hr>
+
+                        <h2 id="buttons">Buttons</h2>
+
+
+                        <a href="#" class="button">Default Button</a>
+                        <a href="#" class="button alt">Alt Button</a>
+                        <a href="#" class="button-reorder">Reorder Button</a>
+                        <a href="#" class="button-reorder-good">Reorder Good Button</a>
+
+
+                        <hr>
+
+                        <h3 id="skew">Skewed Elements Baked</h3>
+                        <div class="skewed-baked">
+                            <p>This is a skewed element example that is baked into the SVG images.</p>
+
+
+                            <img src="/media/Ver 3 Manager.svg" alt="Skewed Manager View" width="691.28"
+                                height="603.58">
+
+                            <br>
+
+                            <img src="/media/Ver 3 procurement.svg" alt="Skewed Procurement View" width="743.44"
+                                height="603.58">
+                        </div>
+
+                        <div class="skewed-code">
+
+                            <h3>Skewed Element Coded</h3>
+                            <p>This is a skewed element example that is coded to the SVG image.</p>
+
+
+                            <img class="skewed-coded-manager" src="/media/Ver 3 Manager Normal.svg"
+                                alt="Skewed Manager View Coded" width="691.28" height="603.58">
+
+                            <br>
+
+                            <img class="skewed-coded-procurement" src="/media/Ver 3 procurement Normal.svg"
+                                alt="Skewed Procurement View Coded" width="743.44" height="603.58">
+                        </div>
+
+
+
+
+
+
+
+
+
 
                         <hr>
 
@@ -120,138 +163,8 @@
                         <video loop autoplay muted playsinline>
                             <source src="media/placeholder-1920x1080.mp4" type="video/mp4">
                         </video>
-                        <pre><code>
-&lt;video loop autoplay muted playsinline&gt;
-                        </code></pre>
 
                         <hr>
-                        <h2 id="grid">Grid System</h2>
-                        <div class="demo">
-
-                            <div class="row">
-                                <div class="one-third">&frac13;</div>
-                                <div class="one-third">&frac13;</div>
-                                <div class="one-third">&frac13;</div>
-                            </div>
-
-
-                            <div class="row">
-                                <div class="one-fourth">&frac14;</div>
-                                <div class="one-fourth">&frac14;</div>
-                                <div class="one-fourth">&frac14;</div>
-                                <div class="one-fourth">&frac14;</div>
-                            </div>
-
-
-                            <div class="row">
-                                <div class="one-third">&frac13;</div>
-                                <div class="two-thirds">&frac23;</div>
-                            </div>
-
-
-                            <div class="row">
-                                <div class="one-half">&frac12;</div>
-                                <div class="one-half">&frac12;</div>
-                            </div>
-
-
-                            <div class="row">
-                                <div class="one-fourth">&frac14;</div>
-                                <div class="three-fourths">&frac34;</div>
-                            </div>
-
-
-                            <div class="row">
-                                <div class="one-whole">1</div>
-                            </div>
-
-
-                            <div class="row">
-                                <div class="one-half centered">&frac12; Centered</div>
-                            </div>
-
-                            <div class="row">
-                                <div class="two-thirds centered">&frac23; Centered</div>
-                            </div>
-
-                            <div class="row">
-                                <div class="one-third centered">&frac13; Centered</div>
-                            </div>
-
-                            <div class="row">
-                                <div class="one-fourth centered">&frac14; Centered</div>
-                            </div>
-
-                            <div class="row">
-                                <div class="three-fourths centered">&frac34; Centered</div>
-                            </div>
-
-
-                            <div class="row">
-                                <div class="col-1">1</div>
-                                <div class="col-11">11</div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-2">2</div>
-                                <div class="col-10">10</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-3">3</div>
-                                <div class="col-9">9</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-4">4</div>
-                                <div class="col-8">8</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-5">5</div>
-                                <div class="col-7">7</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-6">6</div>
-                                <div class="col-6">6</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-7">7</div>
-                                <div class="col-5">5</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-8">8</div>
-                                <div class="col-4">4</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-9">9</div>
-                                <div class="col-3">3</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-10">10</div>
-                                <div class="col-2">2</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-11">11</div>
-                                <div class="col-1">1</div>
-                            </div>
-
-
-                            <h3>Pushes</h3>
-                            <div class="row">
-                                <div class="col-2 push-1">push 1</div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-2 push-2">push 2</div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-2 push-3">push 3</div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
 
 

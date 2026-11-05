@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Base</title>
+    <meta name="description" content="A simple HTML CSS JS Starter base">
+    <!-- Add your CSS file link here -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- <div class="splash-screen">
+        <div class="splash-logo">
+            <img src="media/logo.svg" width="100" height="100" alt="Logo">
+        </div>
+    </div> -->
+
+
+
+
+    <site-header></site-header>
+    <main>
+
+
+
+        <div class="container-dashboard">
+
+            <div class="dashboard-title">
+                <h1>Dashboard</h1>
+                <h2>Procurement</h2>
+            </div>
+
+            <div class="dashboard-grid-manager">
+
+                <div class="box box-1">
+
+                    <div class="box-heading">
+                        <h2>Title for Box 1</h2>
+
+                    </div>
+
+                    <div class="box-content">
+                        <table class="dashboard-table">
+                            <thead>
+                                <tr>
+                                    <th>Item </th>
+                                    <th>Stock</th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td><span class="item-name">Pasture Eggs L 12ct</span></td>
+                                    <td><span class="progress-bar">
+                                            <label class="visually-hidden" for="stock-progress-1">Stock
+                                                level:</label>
+                                            <progress id="stock-progress-1" class="stock-bar" value="70"
+                                                max="100"></progress>
+                                        </span>
+                                        <p class="tiny-bar-text">70/100ct</p>
+                                    </td>
+                                    <td><span class="alert-badge">
+
+                                            <div class="green-check">
+                                                <img src="media/Group 9.svg" alt="Alert">
+
+                                            </div>
+                                        </span></td>
+                                    <td><span class="cta"><button class="button-reorder-good">Reorder</button></span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="item-name">Vincent Fishers Poke 1lb</span></td>
+                                    <td><span class="progress-bar">
+                                            <label class="visually-hidden" for="stock-progress-1">Stock
+                                                level:</label>
+                                            <progress id="stock-progress-1" class="stock-bar red" value="30"
+                                                max="100"></progress>
+                                        </span>
+                                        <p class="tiny-bar-text">30/100lbs</p>
+                                    </td>
+                                    <td><span class="alert-badge">
+
+                                            <div class="red-warning">
+                                                <img src="media/red-alert-button.svg" alt="Alert">
+
+                                            </div>
+                                        </span></td>
+                                    <td><span class="cta"><button class="button-reorder">Reorder</button></span>
+                                    </td>
+                                </tr>
+
+
+                            </tbody>
+
+                        </table>
+                    </div>
+
+
+                    <div class="box-small box-alerts grocery">
+                        TEST
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="box box-2">
+                    Box 2
+                </div>
+
+                <div class="box box-3">
+                    Box 3
+                </div>
+
+                <div class="box box-4">
+                    Box 4
+                    <div class="figma-svg">
+                        <img src="media/figma-chart.svg" alt="Total Sales Chart" width="997" height="776">
+
+                    </div>
+                </div>
+
+                <div class="box box-5">
+                    Box 5
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </main>
+
+
+    <footer class="site-footer">
+
+
+
+        <div class="footer-logo">
+            <h2><a href="index.html">LogiLama</a></h2>
+
+        </div>
+
+
+        <div class="footer-nav">
+            <nav>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="styleguide.html">Style Guide</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+    </footer>
+
+    <!-- MAIN JS FILE -->
+
+    <script src="js/script.js" type="module"></script>
+
+</body>
+
+</html>

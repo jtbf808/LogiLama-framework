@@ -1,13 +1,28 @@
 .button {
 
-    display: inline-block;
+    /* display: inline-block; */
     color: #fff;
     background-color: var(--link-color, #000000);
     padding-block: var(--unit-extrasmall, .5em);
     padding-inline: var(--unit-small, 1em);
-    border-radius: 5px;
-    border: 1px solid var(--link-color, #000000);
+    border-radius: 70px;
     text-decoration: none;
+    width: 183px;
+    height: 37px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+
+
+
+    &.alt {
+        background-color: #4941C0;
+        color: var(--link-color, #000000);
+        border-color: var(--link-color, #000000);
+        place-items: center;
+    }
+
 
 
 
@@ -16,8 +31,47 @@
         background-color: var(--link-hover-color, #000000);
         color: #fff;
         border-color: var(--link-hover-color, #000000);
+        place-items: center;
 
     }
 
 
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.button-reorder {
+
+    display: inline-block;
+    background-color: #F9F9FF;
+    padding-block: var(--unit-extrasmall, .5em);
+    padding-inline: var(--unit-small, 1em);
+    border-radius: 5px;
+    border: 1px solid var(--link-color, #000000);
+    text-decoration: none;
+    margin-block: var(--unit-extrasmall, .5em);
+}
+
+
+.button-reorder-good {
+
+    display: inline-block;
+    background-color: #F9F9FF;
+    padding-block: var(--unit-extrasmall, .5em);
+    padding-inline: var(--unit-small, 1em);
+    border-radius: 5px;
+    border: 1px solid var(--link-color, #000000);
+    text-decoration: none;
+    margin-block: var(--unit-extrasmall, .5em);
+    opacity: 10%;
 }
