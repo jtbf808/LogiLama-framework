@@ -43,7 +43,10 @@
 @import url('partials/ui-svg.css');
 
 
-
+.over-image {
+    z-index: 2;
+    position: relative;
+}
 
 
 /* IMAGE SKEW */
